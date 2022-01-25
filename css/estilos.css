@@ -72,7 +72,7 @@ h1{
     flex-direction: column;
     width: 1100px;
     height: 800px;
-    background-image: url("../images/Perritos_colgados.jpg");
+    background-image: url("../images/nosotros_img.png");
     background-size: 1200px 900px;  
     background-repeat: no-repeat;
 }
@@ -85,7 +85,7 @@ h2{
 }
 
 h2.borde_texto{
-    -webkit-text-stroke: 0.8px black;
+    -webkit-text-stroke: 0.4px black;
     color: white;
     font-size: 2rem;
 }
@@ -97,7 +97,8 @@ h2.Pag__letraPrin{
     text-align: center;
 }
 
-.Pag__letraPrin{
+h2.Pag__letraPrin{
+    width: 40rem;
     color: black;
 }
  
@@ -120,7 +121,7 @@ h2.Pag__letraPrin{
 }
 
 .donaciones__img{
-    width: 3rem;
+    width: 2.5rem;
     height: 2rem;
     margin-top: 2rem;
 }
@@ -128,4 +129,49 @@ h2.Pag__letraPrin{
 .losPerritos__img{
     width: 40rem;
     height: 20rem;
+    margin-bottom: 3rem;
+}
+
+.losPerritos__event{
+    display: flex;
+    flex-direction: row;
+}
+
+.losPerritos__detalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.losPerritos__actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9C1BF;
+    width: 35rem;
+
+}
+
+.losPerritos__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.losPerritos__parrafo{
+    width: 50%;
+}
+
+h2.losPerritos__title{
+    width: 3rem;
+}
+
+img.petShop__img{
+    width: 50rem;
+    height: 35rem;
 }
